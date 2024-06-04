@@ -1,13 +1,5 @@
 RoundRobinPro implements a Round Robin CPU scheduling algorithm demonstrating its effectiveness on time-sharing systems, ensuring fairness and preventing any single process from monopolizing the CPU. The Round Robin (RR) scheduling algorithm is a preemptive scheduling approach that allocates CPU time to each process in equal-sized time slices, or quanta. Unlike FIFO, where processes might suffer from long waiting times if longer processes arrive first, RR ensures equitable CPU time distribution. In this project the Round Robin scheduling algorithm is implemented, managing the ready queue, executing processes, and handling context switches.
 
-Key Features
-
-    Fair Allocation: Ensures each process gets an equal share of the CPU.
-
-    Preemption: If a process's burst time exceeds the time quantum, it is preempted and moved to the back of the ready queue.
-
-    Context Switching: Handles context switching to ensure smooth execution of processes.
-
 Setup Instructions
 Prerequisites
 
